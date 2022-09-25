@@ -167,3 +167,40 @@ a {
   font-size: 1.05rem;
   padding: 1rem;
 }
+.price-box h2 {
+    padding: 1rem;
+  }
+  
+  .price-box p {
+    padding: 0 4rem 1rem;
+  }
+  
+  .price-box .btn {
+    display: inline-block;
+    margin: 1rem;
+  }
+  
+  /* FOOTER */
+  #main-footer {
+    background-color: #ccc;
+    padding: 1rem 4rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  
+  #main-footer div a {
+    color: #333;
+    padding: 0.5rem 1rem;
+  }
+  
+  #fcs {
+    text-decoration: underline;
+    color: #333;
+  }
+  
+  /* TABLET AND SMARTPHONE */
+  @media only screen and (max-width: 800px) {
+    
+  }
